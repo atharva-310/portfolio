@@ -10,7 +10,11 @@ export const Footer = () => {
       borderTop="1px solid"
     >
       <Text>© 2023 Atharva Pakade. All Rights Reserved.</Text>
-      <Link fontSize="lg">
+      <Link
+        fontSize="lg"
+        href={'https://github.com/atharva-310/portfolio'}
+        target={'_blank'}
+      >
         <Center>
           <Icon as={AiFillGithub} mx="10px" /> Source Code
         </Center>
