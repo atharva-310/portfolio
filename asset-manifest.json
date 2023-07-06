@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.2724f22c.css",
+    "main.js": "/portfolio/static/js/main.c762bd97.js",
+    "static/media/ashlar.PNG": "/portfolio/static/media/ashlar.59c575cc99154dbd0f1d.PNG",
+    "static/media/ath_portrait.jpg": "/portfolio/static/media/ath_portrait.a40dc007ce63107e0cac.jpg",
+    "static/media/lnmhacks.PNG": "/portfolio/static/media/lnmhacks.935ce81ceb591698d42d.PNG",
+    "static/media/handy.jpg": "/portfolio/static/media/handy.55bb58478a665d0c142c.jpg",
+    "index.html": "/portfolio/index.html",
+    "main.2724f22c.css.map": "/portfolio/static/css/main.2724f22c.css.map",
+    "main.c762bd97.js.map": "/portfolio/static/js/main.c762bd97.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2724f22c.css",
+    "static/js/main.c762bd97.js"
+  ]
+}
