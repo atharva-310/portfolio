@@ -36,6 +36,9 @@ export const ProjectCard = ({ projectInfo }) => {
       borderRadius={'2px'}
     >
       <Center
+        as="a"
+        href={projectInfo.live ? projectInfo.live : projectInfo.source}
+        target={'_blank'}
         width="100%"
         height="300px"
         borderRadius="2px"
@@ -48,7 +51,8 @@ export const ProjectCard = ({ projectInfo }) => {
           borderRadius={'md'}
           src={projectInfo.img}
           height="90%"
-          objectFit="cover"
+          maxW={'100%'}
+          objectFit="contain"
           // objectPosition={'50%'}
         />
       </Center>

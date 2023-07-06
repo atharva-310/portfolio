@@ -1,15 +1,19 @@
-import { Text, Link, HStack, Icon, Center } from '@chakra-ui/react';
+import { Text, Link, HStack, Icon, Center, Flex } from '@chakra-ui/react';
 import { AiFillGithub } from 'react-icons/ai';
 
 export const Footer = () => {
   return (
-    <HStack
+    <Flex
+      flexDir={{ base: 'column-reverse' }}
+      flexDirection="column-reverse"
       justifyContent="space-between"
       height="70px"
       py="30px"
-      borderTop="1px solid"
+      // borderTop="1px solid"
     >
-      <Text>© 2023 Atharva Pakade. All Rights Reserved.</Text>
+      <Text textAlign={'center'}>
+        © 2023 Atharva Pakade. All Rights Reserved.
+      </Text>
       <Link
         fontSize="lg"
         href={'https://github.com/atharva-310/portfolio'}
@@ -19,6 +23,6 @@ export const Footer = () => {
           <Icon as={AiFillGithub} mx="10px" /> Source Code
         </Center>
       </Link>
-    </HStack>
+    </Flex>
   );
 };

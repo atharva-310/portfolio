@@ -199,6 +199,7 @@ export const projects = [
       'Containerised the microservices to scale on the cloud. Implemented and tested on Cloud Run, a service provided by Google Cloud.',
     ],
     tech: ['React', 'ChakraUI', 'ExpressJS', 'MongoDB', 'FastAPI', 'Docker'],
+    bgColor: 'white',
   },
   {
     type: 'Professional Project',
